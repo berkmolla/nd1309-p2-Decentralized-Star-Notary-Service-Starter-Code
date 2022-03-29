@@ -1,5 +1,5 @@
 const StarNotary = artifacts.require("StarNotary");
 
 module.exports = function(deployer) {
-  deployer.deploy(StarNotary, "bla", "Bla2");
+  deployer.deploy(StarNotary, "BMStars", "BMSTR");
 };
